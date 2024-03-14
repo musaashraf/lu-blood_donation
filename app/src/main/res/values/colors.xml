@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d62222</color>
+    <color name="colorPrimaryDark">#711410</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorWhiteTransfarent">#03fafa</color>
+
+    <color name="backgroungColor">#fcfcfc</color>
+    <color name="materialDeepPurple">#673ab7</color>
+    <color name="materialGreen">#A629E110</color>
+    <color name="materialPink">#C7C908CF</color>
+    <color name="materialBlue">#0707ff</color>
+    <color name="materialRed">#bc0420</color>
+    <color name="materialYellow">#CFDFBB05</color>
+    <color name="materialBlack">#ed000000</color>
+    <color name="mainApp">#711410</color>
+    <color name="postColor">#BD0036</color>
+    <color name="postBackground">#DA1B565E</color>
+
+
+
+</resources>

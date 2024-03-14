@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/natural_gradients"
+    android:orientation="vertical"
+    tools:context=".Admin.AdminActivity">
+
+    <android.support.design.widget.AppBarLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/actionbar_image"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="42dp"
+        android:clickable="true"
+        android:src="@drawable/img_user" />
+    <LinearLayout
+        android:layout_below="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="50dp"
+
+        android:layout_height="match_parent">
+        <Button
+            android:textColor="@color/colorWhite"
+            android:id="@+id/admin_register_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_background_blue"
+            android:text="Register Account Control"/>
+
+        <Button
+            android:textColor="@color/colorWhite"
+            android:id="@+id/admin_post_request_control"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_background_blue"
+            android:text="Post Request Control"/>
+        <Button
+            android:textColor="@color/colorWhite"
+            android:id="@+id/admin_donor_control"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_background_blue"
+            android:text="Add Donor Control"/>
+    </LinearLayout>
+
+</RelativeLayout>

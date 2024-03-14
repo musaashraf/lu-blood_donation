@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#23188F"
+    android:orientation="vertical"
+    tools:context=".AboutUs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.AppBarLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/actionbar_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="42dp"
+            android:clickable="true"
+            android:src="@drawable/ic_actionbar_person" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/templay7"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:clickable="true"
+                        android:src="@mipmap/logoblood1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/templay7"
+                        android:layout_marginTop="5dp"
+                        android:text="Version: 1.0(Beta)"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="25dp" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:src="@drawable/musa" />
+
+                    <TextView
+
+                        android:id="@+id/templay1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="130dp"
+                        android:text="Musa Ibn Ashraf"
+                        android:textColor="#fff"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/templay2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/templay1"
+                        android:layout_marginLeft="130dp"
+                        android:text="MiraBazar, Sylhet-3100"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/templay2"
+                        android:layout_marginLeft="130dp"
+                        android:text="Phone: 01615230554"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/fbmusa"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/templay2"
+                        android:layout_marginStart="130dp"
+                        android:layout_marginTop="30dp"
+                        android:clickable="true"
+                        android:src="@drawable/iconfinder_facebook_circle" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/gmailmusa"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/templay2"
+                        android:layout_marginStart="190dp"
+                        android:layout_marginTop="30dp"
+                        android:clickable="true"
+                        android:src="@drawable/iconfinder_google_plus" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/twittermusa"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/templay2"
+                        android:layout_marginStart="250dp"
+                        android:layout_marginTop="30dp"
+                        android:clickable="true"
+                        android:src="@drawable/iconfinder_twitter" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:src="@drawable/shakil" />
+
+                    <TextView
+
+                        android:id="@+id/templay3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="130dp"
+                        android:text="Ashraf Ali Shakil"
+                        android:textColor="#fff"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/templay4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/templay3"
+                        android:layout_marginLeft="130dp"
+                        android:text="Chowatta, Sylhet-3100"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/templay4"
+                        android:layout_marginLeft="130dp"
+                        android:text="Phone: 01704825393"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/fbshakil"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/templay4"
+                        android:layout_marginStart="130dp"
+                        android:layout_marginTop="30dp"
+                        android:clickable="true"
+                        android:src="@drawable/iconfinder_facebook_circle" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/gmailshakil"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/templay4"
+                        android:layout_marginStart="190dp"
+                        android:layout_marginTop="30dp"
+                        android:clickable="true"
+                        android:src="@drawable/iconfinder_gmail" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/twittershakil"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/templay4"
+                        android:layout_marginStart="250dp"
+                        android:layout_marginTop="30dp"
+                        android:clickable="true"
+                        android:src="@drawable/iconfinder_twitter" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:src="@drawable/foyez" />
+
+                    <TextView
+
+                        android:id="@+id/templay5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="130dp"
+                        android:text="Foyez Rahman"
+                        android:textColor="#fff"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/templay6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/templay5"
+                        android:layout_marginLeft="130dp"
+                        android:text="Bagbari, Sylhet-3100"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/templay6"
+                        android:layout_marginLeft="130dp"
+                        android:text="Phone: 01765553464"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/fbfoyez"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/templay6"
+                        android:layout_marginStart="130dp"
+                        android:layout_marginTop="30dp"
+                        android:clickable="true"
+                        android:src="@drawable/iconfinder_facebook_circle" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/gmailfoyez"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/templay6"
+                        android:layout_marginStart="190dp"
+                        android:layout_marginTop="30dp"
+                        android:clickable="true"
+                        android:src="@drawable/iconfinder_gmail" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/twitterfoyez"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/templay6"
+                        android:layout_marginStart="250dp"
+                        android:layout_marginTop="30dp"
+                        android:clickable="true"
+                        android:src="@drawable/iconfinder_twitter" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

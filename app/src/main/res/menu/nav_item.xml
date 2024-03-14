@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home1"
+        android:title="@string/nav_home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/ic_chat_black_24dp"
+        android:title="@string/nav_chat"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/notification"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/nav_addDonor"
+        android:icon="@drawable/ic_add_box_black_24dp"
+        android:title="@string/nav_bloodDonor"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/person"
+        android:title="@string/account"
+        app:showAsAction="never"/>
+
+
+</menu>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#880d9dc1"
+    tools:context=".Fragments.SingleDonorInformation">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+<RelativeLayout
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="56dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/materialRed">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:adjustViewBounds="false"
+                android:background="@drawable/ic_avarter_launcher"
+                android:keepScreenOn="false" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="110dp"
+        android:padding="10dp"
+        android:id="@+id/templay8"
+        android:background="@drawable/natural_gradients"
+        >
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Blood Group:"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profile_blood_group"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:textColor="@color/materialBlack"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/ractengle_background"
+                android:hint="Blood Group"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Mobile:"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profile_phone_number"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:textColor="@color/materialBlack"
+                android:background="@drawable/ractengle_background"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="center"
+                android:hint="Phone Number"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Address:"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profile_areaAddress"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/materialBlack"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:background="@drawable/ractengle_background"
+                android:hint="Address"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Last Donation:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profile_last_donation_date"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:textColor="@color/materialBlack"
+                android:background="@drawable/ractengle_background"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:hint="Last Donataion Date"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="User Id:"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profile_email"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ractengle_background"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:hint="Email Address"
+                android:gravity="center"
+                android:textColor="@color/materialBlack"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/profile_EditInformation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update Information"
+                android:textAllCaps="false"
+                android:layout_marginLeft="70dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/phonecall"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/templay8"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/ic_phone_icon" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_marginRight="30dp"
+        android:id="@+id/messagenumber"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/templay8"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/ic_message_black_24dp" />
+</RelativeLayout>
+
+</RelativeLayout>

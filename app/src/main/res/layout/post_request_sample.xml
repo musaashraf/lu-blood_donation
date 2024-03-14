@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#769da3"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/s_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show status"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/s_bloodType"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Blood Type"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/s_hospitalname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:textAllCaps="false"
+            android:layout_marginTop="1dp"
+            android:text="Hospital Name/Area"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/s_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:textAllCaps="false"
+            android:text="Location"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/s_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:textAllCaps="false"
+            android:text="show details"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/s_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:textAllCaps="false"
+            android:text="Date and Time"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/s_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:textAllCaps="false"
+            android:text="Phone Number"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/s_statustime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:textAllCaps="false"
+            android:text="Status Time: "
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Fragments.EditProfileFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/edit_profile_image"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="false"
+        android:clickable="true"
+        android:keepScreenOn="false"
+        android:background="@drawable/ic_actionbar_person" />
+
+    <EditText
+        android:id="@+id/edit_profile_Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Display Name"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_profile_blood_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Blood Group"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/edit_profile_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:hint="Phone Number" />
+
+    <EditText
+        android:id="@+id/edit_profile_areaAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Address"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_profile_last_donation_date"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Donataion Date"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/edit_profile_EditInformation"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Information"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+</LinearLayout>
